@@ -22,7 +22,7 @@ readonly NC='\033[0m' # No Color
 # Tool configuration
 readonly TOOL_NAME="EST - Email Spoofing Tool"
 readonly TOOL_VERSION="2.0.1"
-readonly TOOL_AUTHOR="Security Research Team"
+readonly TOOL_AUTHOR="Tech Sky - SRT"
 readonly INSTALL_DIR="/opt/est"
 readonly BIN_LINK="/usr/local/bin/est"
 readonly DESKTOP_DIR="/usr/share/applications"
@@ -32,15 +32,14 @@ readonly VENV_DIR="$HOME/.est-env"
 # Status functions
 print_banner() {
     echo -e "${BLUE}╔══════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BLUE}║                    EST INSTALLER v${TOOL_VERSION}                    ║${NC}"
+    echo -e "${BLUE}║                    EST INSTALLER v${TOOL_VERSION}                       ║${NC}"
     echo -e "${BLUE}║              Email Spoofing Tool - Professional              ║${NC}"
     echo -e "${BLUE}║                                                              ║${NC}"
-    echo -e "${BLUE}║  🎯 Advanced Email Security Assessment Framework             ║${NC}"
-    echo -e "${BLUE}║  🔒 For Authorized Penetration Testing Only                 ║${NC}"
-    echo -e "${BLUE}║  📚 Educational & Research Purposes                         ║${NC}"
+    echo -e "${BLUE}║     Advanced Email Security Assessment Framework             ║${NC}"
+    echo -e "${BLUE}║     For Authorized Penetration Testing Only                  ║${NC}"
+    echo -e "${BLUE}║     Educational & Research Purposes                          ║${NC}"
     echo -e "${BLUE}║                                                              ║${NC}"
-    echo -e "${BLUE}║  Author: ${TOOL_AUTHOR}${NC}${BLUE}                         ║${NC}"
-    echo -e "${BLUE}║  🔧 Fixed for Python 3.13+ & Kali Linux                    ║${NC}"
+    echo -e "${BLUE}║  Author: ${TOOL_AUTHOR}${NC}${BLUE}                          ║${NC}"
     echo -e "${BLUE}╚══════════════════════════════════════════════════════════════╝${NC}"
     echo
 }
@@ -775,7 +774,7 @@ verify_installation() {
 show_post_install_info() {
     echo
     echo -e "${GREEN}╔══════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${GREEN}║                   INSTALLATION COMPLETE!                    ║${NC}"
+    echo -e "${GREEN}║                   INSTALLATION COMPLETE!                     ║${NC}"
     echo -e "${GREEN}╚══════════════════════════════════════════════════════════════╝${NC}"
     echo
     echo -e "${CYAN}🚀 EST v${TOOL_VERSION} successfully installed!${NC}"
@@ -910,7 +909,7 @@ if [ ! -f "est.py" ]; then
     echo "  • README.md (documentation)"
     echo "  • requirements.txt (dependencies)"
     echo
-    echo "Download from: https://github.com/your-org/EST"
+    echo "Download from: https://github.com/techsky-eh/EST"
     exit 1
 fi
 

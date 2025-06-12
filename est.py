@@ -42,7 +42,7 @@ import email.utils
 
 # Version and metadata
 __version__ = "2.0.1"
-__author__ = "Security Research Team"
+__author__ = "Tech Sky - SRT"
 __license__ = "MIT"
 __description__ = "Professional Email Security Assessment Framework"
 
@@ -222,8 +222,8 @@ class SMTPTestServer:
             
             print(f"""
 ╔══════════════════════════════════════════════════════════════╗
-║                    EST SMTP SERVER v{__version__}                    ║
-║              Email Spoofing Tool - Server Mode              ║
+║                    EST SMTP SERVER v{__version__}                     ║
+║              Email Spoofing Tool - Server Mode               ║
 ╚══════════════════════════════════════════════════════════════╝
 
 🚀 Server Status: ACTIVE
@@ -498,12 +498,12 @@ class EST:
 ║                    EST - Email Spoofing Tool                 ║
 ║              Professional Security Assessment v{__version__}          ║
 ║                                                              ║
-║  🎯 Advanced Email Security Testing Framework                ║
-║  🔒 For Authorized Penetration Testing Only                 ║
-║  📚 Educational & Research Purposes                         ║
+║    Advanced Email Security Testing Framework                 ║
+║    For Authorized Penetration Testing Only                   ║
+║    Educational & Research Purposes                           ║
 ║                                                              ║
-║  Author: {__author__:<48} ║
-║  License: {__license__:<47} ║
+║  Author: {__author__}                                      ║
+║  License: {__license__}                                                ║
 ╚══════════════════════════════════════════════════════════════╝
 
 ⚠️  LEGAL NOTICE: This tool is for authorized security testing only.
