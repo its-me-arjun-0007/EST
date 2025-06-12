@@ -1,0 +1,256 @@
+# EST - Email Spoofing Tool .gitignore
+# This file prevents sensitive and unnecessary files from being committed
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# EST specific files
+# ==================
+
+# Configuration files with sensitive data
+config.json
+settings.json
+credentials.json
+secrets.json
+
+# Log files
+*.log
+logs/
+est_tests.log
+smtp_server.log
+
+# Test data
+test_emails/
+test_results/
+tmp_emails/
+
+# Reports with potentially sensitive information
+reports/*.json
+reports/*.html
+reports/*.pdf
+*.report
+
+# User configuration directory contents
+.est/config.json
+.est/logs/
+.est/reports/
+.est/temp/
+
+# Email test files
+*.eml
+*.msg
+test_*.txt
+
+# SMTP server temporary files
+smtp_temp/
+mail_queue/
+
+# SSL/TLS certificates (if any)
+*.pem
+*.key
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Database files (if any)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Documentation build files
+docs/_build/
+docs/build/
+site/
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Security sensitive files
+# =========================
+# Never commit these types of files for a security tool
+
+# API keys and tokens
+.env.local
+.env.production
+api_keys.txt
+tokens.txt
+
+# User credentials
+usernames.txt
+passwords.txt
+creds.txt
+
+# Real email addresses
+real_emails.txt
+target_emails.txt
+email_lists.txt
+
+# Production configuration
+production.json
+prod_config.json
+
+# SSH keys
+id_rsa
+id_rsa.pub
+*.pem
+
+# Local environment variables
+.env.*
+
+# OS generated files
+.DS_Store?
+Icon?
+.Spotlight-V100
+.Trashes
+._*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Application specific
+node_modules/
+.npm
+.sass-cache/
+
+# Custom additions for EST
+# ========================
+
+# Installation artifacts
+install.log
+installation_*.log
+
+# Test results
+test_output/
+test_logs/
+junit.xml
+
+# Performance test results
+performance_*.json
+benchmark_*.txt
+
+# Documentation builds
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local development
+local_*
+dev_*
+debug_*
