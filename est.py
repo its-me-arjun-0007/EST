@@ -222,7 +222,7 @@ class SMTPTestServer:
             
             print(f"""
 ╔══════════════════════════════════════════════════════════════╗
-║                    EST SMTP SERVER v{__version__}                     ║
+║                    EST SMTP SERVER v{__version__}                    ║
 ║              Email Spoofing Tool - Server Mode               ║
 ╚══════════════════════════════════════════════════════════════╝
 
@@ -496,7 +496,7 @@ class EST:
         banner = f"""
 ╔══════════════════════════════════════════════════════════════╗
 ║                    EST - Email Spoofing Tool                 ║
-║              Professional Security Assessment v{__version__}          ║
+║              Professional Security Assessment v{__version__}         ║
 ║                                                              ║
 ║    Advanced Email Security Testing Framework                 ║
 ║    For Authorized Penetration Testing Only                   ║
