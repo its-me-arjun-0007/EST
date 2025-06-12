@@ -32,14 +32,14 @@ readonly VENV_DIR="$HOME/.est-env"
 # Status functions
 print_banner() {
     echo -e "${BLUE}╔══════════════════════════════════════════════════════════════╗${NC}"
-    echo -e "${BLUE}║                    EST INSTALLER v${TOOL_VERSION}                       ║${NC}"
+    echo -e "${BLUE}║                    EST INSTALLER v${TOOL_VERSION}                      ║${NC}"
     echo -e "${BLUE}║              Email Spoofing Tool - Professional              ║${NC}"
     echo -e "${BLUE}║                                                              ║${NC}"
     echo -e "${BLUE}║     Advanced Email Security Assessment Framework             ║${NC}"
     echo -e "${BLUE}║     For Authorized Penetration Testing Only                  ║${NC}"
     echo -e "${BLUE}║     Educational & Research Purposes                          ║${NC}"
     echo -e "${BLUE}║                                                              ║${NC}"
-    echo -e "${BLUE}║  Author: ${TOOL_AUTHOR}${NC}${BLUE}                          ║${NC}"
+    echo -e "${BLUE}║  Author: ${TOOL_AUTHOR}${NC}${BLUE}                                      ║${NC}"
     echo -e "${BLUE}╚══════════════════════════════════════════════════════════════╝${NC}"
     echo
 }
