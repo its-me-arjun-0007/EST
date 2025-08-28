@@ -900,20 +900,7 @@ class EST:
             
             # Create email body with disclaimer
             email_body = f"""{scenario.body}
-
-────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
-
-Test Details:
-• Scenario: {scenario.name}
-• Category: {scenario.category}
-• Severity: {scenario.severity}
-• Timestamp: {datetime.now().isoformat()}
-
-EST v{__version__} - Professional Email Security Assessment Framework
-────────────────────────────────────────────────────────────────"""
+            """
             
             # Create text part with proper encoding
             text_part = MIMEText(email_body, 'plain', 'utf-8')
@@ -941,14 +928,7 @@ EST v{__version__} - Professional Email Security Assessment Framework
             
             # Create email body with disclaimer
             email_body = f"""{body}
-
-────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
-
-EST v{__version__} - Professional Email Security Assessment Framework
-────────────────────────────────────────────────────────────────"""
+            """
             
             # Create text part with proper encoding
             text_part = MIMEText(email_body, 'plain', 'utf-8')
@@ -972,20 +952,6 @@ MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 
 {scenario.body}
-
-────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
-
-Test Details:
-• Scenario: {scenario.name}
-• Category: {scenario.category}
-• Severity: {scenario.severity}
-• Timestamp: {datetime.now().isoformat()}
-
-EST v{__version__} - Professional Email Security Assessment Framework
-────────────────────────────────────────────────────────────────
 """
     
     def _create_simple_custom_email(self, from_email: str, from_name: str, subject: str, body: str, target: str) -> str:
@@ -999,14 +965,6 @@ MIME-Version: 1.0
 Content-Type: text/plain; charset=UTF-8
 
 {body}
-
-────────────────────────────────────────────────────────────────
-This email was sent using EST (Email Spoofing Tool) for authorized
-security testing purposes. If you received this email unexpectedly,
-please contact your IT security team immediately.
-
-EST v{__version__} - Professional Email Security Assessment Framework
-────────────────────────────────────────────────────────────────
 """
     
     def _log_test_result(self, result: TestResult):
