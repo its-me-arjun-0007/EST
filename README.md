@@ -4,10 +4,10 @@
 
 ![EST Logo](https://img.shields.io/badge/EST-Email%20Spoofing%20Tool-red?style=for-the-badge&logo=security&logoColor=white)
 
-[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/techsky-eh/EST)
+[![Version](https://img.shields.io/badge/version-2.0.1-blue.svg)](https://github.com/its-me-arjun-0007/EST)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.8+-yellow.svg)](https://python.org)
-[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey.svg)](https://github.com/techsky-eh/EST)
+[![Platform](https://img.shields.io/badge/platform-linux%20%7C%20macos%20%7C%20windows-lightgrey.svg)](https://github.com/its-me-arjun-0007/EST)
 [![Kali](https://img.shields.io/badge/Kali%20Linux-Compatible-purple.svg)](https://kali.org)
 
 **Professional Email Security Assessment Framework**
@@ -71,7 +71,7 @@ EST Framework
 
 ```bash
 # Clone the repository
-git clone https://github.com/techsky-eh/EST.git
+https://github.com/its-me-arjun-0007/EST.git
 cd EST
 
 # Make installer executable
@@ -91,7 +91,7 @@ The installer will automatically:
 
 ```bash
 # Clone the repository
-git clone https://github.com/techsky-eh/EST.git
+https://github.com/its-me-arjun-0007/EST.git
 cd EST
 
 # Install dependencies
@@ -108,7 +108,7 @@ sudo ./install.sh
 brew install python3 telnet
 
 # Clone and install EST
-git clone https://github.com/techsky-eh/EST.git
+https://github.com/its-me-arjun-0007/EST.git
 cd EST
 ./install.sh
 ```
